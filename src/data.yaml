@@ -1,0 +1,5 @@
+path: /home/claude/yolo_ds
+train: images/train
+val: images/val
+nc: 2
+names: [trator, vaca]

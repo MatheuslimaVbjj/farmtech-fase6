@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Pesos e artefatos pesados de treino
+*.pt
+!src/weights/best_30ep.pt
+!src/weights/best_60ep.pt
+runs/
+datasets/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Planilhas (regra herdada do template FIAP)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# EXCECAO: o manifesto do dataset PRECISA ir para o repositorio,
+# e a rastreabilidade das 80 imagens depende dele.
+!src/data/MANIFESTO.csv
+!src/data/resultados_treino_30ep.csv
+!src/data/resultados_treino_60ep.csv

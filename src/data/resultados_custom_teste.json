@@ -1,0 +1,12 @@
+{
+  "30": {
+    "acuracia_classe": 1.0,
+    "taxa_deteccao": 1.0,
+    "inferencia_ms": 195.50911187502606
+  },
+  "60": {
+    "acuracia_classe": 1.0,
+    "taxa_deteccao": 1.0,
+    "inferencia_ms": 73.28941437509684
+  }
+}
