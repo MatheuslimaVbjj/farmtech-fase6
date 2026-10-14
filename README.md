@@ -136,6 +136,12 @@ encontra mais sinal — ele decora. A escolha é ditada pelo tamanho do dado.
 | mAP@50 | 0,5692 | 0,5769 | +1,4% |
 | **mAP@50-95** | 0,3858 | **0,4457** | **+15,5%** |
 
+<p align="center">
+  <img src="./assets/curvas_30_vs_60.png" width="100%" alt="Evolução de mAP@50-95, precisão e recall ao longo das épocas, comparando os dois treinos">
+  <br><em>As três curvas que contam a história: o mAP@50-95 e a precisão sobem com 60 épocas,
+  o recall desce. Nenhum dos dois modelos domina o outro.</em>
+</p>
+
 **Métrica primária declarada antes dos resultados: `mAP@50-95`.** Ela exige caixa bem
 posicionada em dez níveis de sobreposição, enquanto o `mAP@50` perdoa caixa "quase certa".
 
@@ -154,6 +160,11 @@ Três leituras:
 silhueta consistente entre imagens, enquanto a classe `trator` reúne desde microtrator de
 jardim até máquina agrícola de grande porte e modelos de época — variabilidade intraclasse
 muito maior para 32 exemplos cobrirem.
+
+<p align="center">
+  <img src="./assets/matriz_confusao.png" width="92%" alt="Matrizes de confusão dos dois treinos no conjunto de validação">
+  <br><em>Matrizes de confusão na validação — 30 épocas à esquerda, 60 à direita</em>
+</p>
 
 **A escolha do modelo depende da aplicação, não da métrica:**
 
@@ -284,7 +295,9 @@ Apague essa pasta para forçar o treino do zero.
 │   ├── amostra_trator.jpg           as 40 imagens aprovadas da classe trator
 │   ├── amostra_vaca.jpg             as 40 imagens aprovadas da classe vaca
 │   ├── verificacao_rotulos.jpg      rótulos sobrepostos às imagens
-│   └── deteccoes_teste.jpg          saída do modelo nas 8 imagens de teste
+│   ├── deteccoes_teste.jpg          saída do modelo nas 8 imagens de teste
+│   ├── curvas_30_vs_60.png          evolução das métricas nos dois treinos
+│   └── matriz_confusao.png          matrizes de confusão na validação
 ├── document/other/
 │   ├── COMO_ROTULAR.md              procedimento de rotulação no Make Sense
 │   └── ROTEIRO_VIDEO.md             roteiro cronometrado da gravação
