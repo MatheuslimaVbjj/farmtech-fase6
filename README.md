@@ -19,7 +19,7 @@
 | **RM** | `RM572808` |
 | **Grupo** | `15` (solo) |
 | **Notebook** | [`src/MatheusTavaresLima_rm572808_pbl_fase6.ipynb`](./src/MatheusTavaresLima_rm572808_pbl_fase6.ipynb) |
-| **Vídeo demonstrativo** | `COLE AQUI O LINK DO YOUTUBE (não listado)` |
+| **Vídeo demonstrativo** |https://youtu.be/FrMse98YQMU)|
 
 ---
 
